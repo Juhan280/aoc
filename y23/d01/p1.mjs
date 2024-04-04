@@ -1,7 +1,7 @@
 import { createReadStream } from "node:fs";
 import { createInterface } from "node:readline";
 
-const stream = createReadStream("./data.txt", "utf8");
+const stream = createReadStream("../../inputs/y23/d01.txt", "utf8");
 const rl = createInterface(stream);
 
 /** @type {number[]} */
